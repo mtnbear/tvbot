@@ -20,6 +20,8 @@ module.exports = (robot) ->
      else
        res.reply "Opening #{doorType} doors"
   
+   robot.hear /pepe/i, (res) ->
+      res.send "https://www.google.com/search?q=pepe+wow&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjg2qS35JbMAhVIsoMKHTPwAQMQ_AUIBygB&biw=1366&bih=667#imgrc=8T8IP0OooooZIM%3A"
   # robot.hear /I like pie/i, (res) ->
   #   res.emote "makes a freshly baked pie"
   #
