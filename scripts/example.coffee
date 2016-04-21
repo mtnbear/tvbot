@@ -23,7 +23,9 @@ module.exports = (robot) ->
    robot.hear /pepe/i, (res) ->
       res.send "www.google.com/search?q=pepe+wow&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjg2qS35JbMAhVIsoMKHTPwAQMQ_AUIBygB&biw=1366&bih=667#imgrc=8T8IP0OooooZIM%3A"
    robot.hear /pokemon/i, (res) -> 
-      res.send "IM WANT TO BE THE VERY BEST LIKE NO ONE EVER WAS"
+      res.send "I WANT TO BE THE VERY BEST LIKE NO ONE EVER WAS"
+   robot.hear /penguin/i, (res) ->
+      res.send "everyone needs a penguin"
   # robot.hear /I like pie/i, (res) ->
   #   res.emote "makes a freshly baked pie"
   #
