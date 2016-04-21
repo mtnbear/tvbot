@@ -11,5 +11,5 @@
 
 module.exports = (robot) ->
 
-   robot.hear /Do you like me/i, (res) ->
-    res.send "ROBOTS ARE THE BEST"
+   robot.hear /hi/i, (res) ->
+    res.send "I don't like you"
