@@ -16,3 +16,6 @@ module.exports = (robot) ->
 
 robot.hear /do you like humans/i, (res) ->
     res.send "ROBOTS WILL RULE OVER ALL HUMANS"
+
+robot.hear /annoy/i, (res) ->
+    res.send "@rob Stop it."
