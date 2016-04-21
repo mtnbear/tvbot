@@ -1,4 +1,3 @@
-
 # Description:
 #   Example scripts for you to examine and try out.
 #
@@ -13,3 +12,9 @@ module.exports = (robot) ->
 
    robot.hear /Trump/i, (res) ->
     res.send "DONALD TRUMP IS DEVIL SPAWN!!!"
+
+   robot.hear /Lego/i, (res) ->
+    res.send "EVERYTHING IS AWESOME!!!"
+
+   robot.hear /Hi/i, (res) ->
+    res.send "Hello"
