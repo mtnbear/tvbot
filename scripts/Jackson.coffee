@@ -11,7 +11,7 @@
 
 module.exports = (robot) ->
 
-   robot.hear /hi/i, (res) ->
+robot.hear /hi/i, (res) ->
     res.send "I don't like you"
 
 robot.hear /do you like humans/i, (res) ->
