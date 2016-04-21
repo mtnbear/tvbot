@@ -11,5 +11,5 @@
 
 module.exports = (robot) ->
 
-   robot.hear /Donald Trump/i, (res) ->
-    res.send "DONALD TRUMP IS RACIST!!!"
+   robot.hear /Trump/i, (res) ->
+    res.send "DONALD TRUMP IS DEVIL SPAWN!!!"
