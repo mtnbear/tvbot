@@ -21,3 +21,6 @@ module.exports = (robot) ->
 
    robot.hear /waffle/i, (res) ->
     res.send "DO YOU LIKE WAFFLES?! YEA WE LIKE WAFFLES!!! DO YOU LIKE PANKCAKES?! YEA WE LIKE PANCAKES!!!"
+
+   robot.hear /frozen/i, (res) ->
+    res.send "LET IT GO!!! LET IT GO!!!"
