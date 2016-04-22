@@ -9,7 +9,7 @@
 #
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
-module.exports = (robot) ->
+Module.exports = (robot) -> 
 
     robot.hear /hi/i, (res) ->
       res.send "I don't like you"
@@ -19,3 +19,5 @@ module.exports = (robot) ->
 
     robot.hear /annoy/i, (res) ->
       res.send "@rob Stop it."
+
+   
