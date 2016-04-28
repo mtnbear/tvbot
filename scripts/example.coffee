@@ -9,6 +9,8 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
+   robot.hear /pepe/i, (res) ->
+      res.send "https://www.google.com/search?q=pepe+wow&espv=2&tbm=isch&imgil=8T8IP0OooooZIM%253A%253Bk-Ryu7tFjnLVaM%253Bhttps%25253A%25252F%25252Ftheduchessofdork.wordpress.com%25252F2015%25252F02%25252F08%25252Fhave-you-worn-the-bird-pepe-pippers-wow-easter-eggs%25252F&source=iu&pf=m&fir=8T8IP0OooooZIM%253A%252Ck-Ryu7tFjnLVaM%252C_&usg=__nhZbuRB8dnsVX-NJvUTb5ycFNY0%3D&biw=1366&bih=667&ved=0ahUKEwiru5XbqrLMAhUHuYMKHRcwDe0QyjcINg&ei=PogiV6ukBYfyjgSX4LToDg#imgrc=8T8IP0OooooZIM%3A"   
 
    robot.hear /badger/i, (res) ->
      res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
