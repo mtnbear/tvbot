@@ -9,12 +9,3 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 Module.exports = (robot) -> 
-
-    robot.hear /hi/i, (res) ->
-      res.send "I don't like you"
-
-    robot.hear /humans/i, (res) ->
-      res.send "ROBOTS WILL RULE OVER ALL HUMANS"
-
-    robot.hear /annoy/i, (res) ->
-      res.send "@rob Stop it."
